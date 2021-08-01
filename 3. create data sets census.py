@@ -15,8 +15,8 @@ import numpy as np
 import os
 
 # Load data
-df_2001 = pd.read_csv(r"X:\Scriptie_Elja_Vegter_NL\census_2001.csv")
-df_2011 = pd.read_csv(r"X:\Scriptie_Elja_Vegter_NL\census_2011.csv")
+df_2001 = pd.read_csv(r"XXX\XXX\census_2001.csv")
+df_2011 = pd.read_csv(r"XXX\XXX\census_2011.csv")
 
 ###############################################################################
 ##### 1. DATA INITIALIZATION            #######################################
@@ -148,7 +148,7 @@ df_2011 = df_2011.drop(columns=['CLASSWK', 'OCC', 'RELATE'])
 
 
 # Write newly created data frames to csv files
-os.chdir(r"X:\Scriptie_Elja_Vegter_NL")
+os.chdir(r"XXX\XXX")
 
 df_2001.to_csv("df_2001.csv")
 df_2011.to_csv("df_2011.csv")
