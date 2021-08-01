@@ -29,8 +29,8 @@ tf.disable_eager_execution()
 tf.logging.set_verbosity(tf.logging.ERROR)
 
 # Load data
-df_2001 = pd.read_csv(r"C:\Users\Dell\Documents\ELJA\PwC\df_2001.csv", usecols=range(1,30))
-df_2011 = pd.read_csv(r"C:\Users\Dell\Documents\ELJA\PwC\df_2011.csv", usecols=range(1,30))
+df_2001 = pd.read_csv(r"XXX\XXX\df_2001.csv", usecols=range(1,30))
+df_2011 = pd.read_csv(r"XXX\XXX\df_2011.csv", usecols=range(1,30))
 
 ###############################################################################
 ##### 1. DATA EXPLORATION            ##########################################
