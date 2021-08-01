@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  9 12:24:33 2021
-
-@author: evegter001
-"""
-
 """Relabel examples in a dataset for fairness-aware model training."""
 
 import numpy as np
